@@ -1,44 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hotel Resort
 
-## Available Scripts
+Demo [Hotel site](https://github.com/facebook/create-react-app).
+![alt text](./docs/images/00.png 'Sample 0')
 
-In the project directory, you can run:
+## Features
 
-### `yarn start`
+The site is a simple website for a hotel. The landing page has some details of what services are presented at the hotel along with the featured rooms. There is another page with has the option to view and filter rooms. Each room type had its own detailed page.
+![alt text](./docs/images/01.png 'Sample 1')
+![alt text](./docs/images/02.png 'Sample 2')
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Stack
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+In the project project the following technologies have been used.
 
-### `yarn test`
+##### Code
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Typescript](https://www.typescriptlang.org/docs/home.html) (tsx, ts)
+- React Hooks (useReducer, useContext, useEffect ect')
+- React Context API
+- [React Suspense](https://reactjs.org/docs/concurrent-mode-suspense.html)
+  Used Suspense for lazy loading & data fetching, experimental
+- [React-Router](https://reacttraining.com/react-router/web/guides/quick-start)
+  Used with a simple router and parameters
+-
 
-### `yarn build`
+##### Design (CSS)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The content has a responsive layout for mobile and desktop using a [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) and some [Media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [styled-components](https://github.com/styled-components/styled-components)
+- [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- [HTML5 tags](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines) (article, nav, header, section, etc')
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### Other libraries used
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [lodash](https://github.com/lodash/lodash)
+- [react-icons](https://github.com/react-icons/react-icons)
