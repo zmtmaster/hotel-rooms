@@ -1,6 +1,6 @@
 # Hotel Resort
 
-Demo [Hotel site](https://github.com/facebook/create-react-app).
+Demo [Hotel site](https://hotel-resorts.herokuapp.com/).
 ![alt text](./docs/images/00.png 'Sample 0')
 
 ## Features
