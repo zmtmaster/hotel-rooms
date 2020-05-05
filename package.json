@@ -3,7 +3,6 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"@quickbaseoss/babel-plugin-styled-components-css-namespace": "^1.0.0-rc4",
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
 		"@testing-library/user-event": "^7.1.2",
@@ -16,20 +15,20 @@
 		"@types/react-transition-group": "^4.2.4",
 		"@types/styled-components": "^5.1.0",
 		"babel-plugin-styled-components": "^1.10.7",
+		"express": "^4.17.1",
+		"express-favicon": "^2.0.1",
 		"lodash": "^4.17.15",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
 		"react-icons": "^3.10.0",
 		"react-router-dom": "^5.1.2",
 		"react-scripts": "3.4.1",
-		"react-transition-group": "^4.3.0",
-		"serve": "^11.3.0",
 		"styled-components": "^5.1.0",
 		"typescript": "~3.7.2"
 	},
 	"scripts": {
-		"serve": "server -s build",
-		"start": "react-scripts start",
+		"start": "node server.js",
+		"development": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
@@ -51,7 +50,6 @@
 	},
 	"babel": {
 		"plugins": [
-			"@quickbaseoss/babel-plugin-styled-components-css-namespace",
 			"babel-plugin-styled-components"
 		]
 	},
