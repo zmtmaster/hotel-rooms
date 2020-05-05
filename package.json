@@ -23,10 +23,12 @@
 		"react-router-dom": "^5.1.2",
 		"react-scripts": "3.4.1",
 		"react-transition-group": "^4.3.0",
+		"serve": "^11.3.0",
 		"styled-components": "^5.1.0",
 		"typescript": "~3.7.2"
 	},
 	"scripts": {
+		"serve": "server -s build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
@@ -55,5 +57,9 @@
 	},
 	"devDependencies": {
 		"styled-components.macro": "^1.0.0"
+	},
+	"engines": {
+		"node": "12.14.1",
+		"npm": "6.10.1"
 	}
 }
