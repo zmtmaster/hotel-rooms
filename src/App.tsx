@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import { ROUTES } from './constants/internal';
 
-import Navbar from 'components/navbar';
-import SingleRoom from 'components/single-room';
-
-import { Home, Rooms, Error } from './pages';
+const Navbar = lazy(() => import('./components/navbar'));
+const SingleRoom = lazy(() => import('./components/single-room'));
+const Home = lazy(() => import('./pages/home'));
+const Rooms = lazy(() => import('./pages/rooms'));
+const Error = lazy(() => import('./pages/error'));
 
 function App() {
 	return (
